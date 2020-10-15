@@ -2,7 +2,7 @@ def count_strings(array)
   array.count do |element|
     element=String
   end
-  count_strings(element)
+  count_strings(String)
 end
 
 
